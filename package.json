@@ -1,0 +1,20 @@
+{
+  "name": "rnt-style-guide",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "styled-components": "^1.4.6"
+  },
+  "devDependencies": {
+    "@kadira/react-storybook-addon-info": "^3.4.0",
+    "@kadira/storybook": "^2.21.0",
+    "@storybook/addon-options": "^3.0.0-alpha.0"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
